@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Emberzo - Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            display: inline;
+            padding: 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .content {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            background-color: white;
+            padding: 1.5rem;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        a.btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        a.btn:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            position: relative;
+            width: 100%;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project {
+            margin-bottom: 2rem;
+        }
+
+        .project h3 {
+            color: #333;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form label {
+            margin: 0.5rem 0;
+            font-weight: bold;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            height: 150px;
+        }
+
+        .contact-form button[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 1rem 0;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            text-align: center;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to the personal webpage of Mario Emberzo.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#web-developer">Web Developer</a></li>
+            <li><a href="#creator">Creator</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello, my Name Mario Emberzo, a passionate Web Developer. i was born march 9 2004 i was lived paranaque and currently is silang cavite I was love designing beautiful, functional, and dynamic web experiences. Currently, I am a student at Philippine Christian University, pursuing my Bachelor of Science in Information Technology. My skill set includes HTML, CSS, JavaScript, and frameworks like React and Angular, which I use to build responsive, interactive websites.</p>
+            <p> my goal is to deliver high-quality work that meets both technical and business needs. I am dedicated to continuously learning and staying up-to-date with the latest technologies and trends in web development and make the to learning about the web developer and good designing i like designing in personal</p>
+        </section>
+
+        <section id="web-developer">
+            <h2>Web Developer</h2>
+            <p>My personal portfolio website was built using HTML5, CSS3 and Bootstrap and hosted by GitHub. It was my first life website and by learning new techniques and technologies I am hoping to improve it constantly. I found working with Bootstrap quite easy as it works similar to CSS grids (except specifying the number of columns), however, the grid can’t be reflected exactly 100% in Adobe Illustrator or Photoshop. Therefore, we will end up applying small changes in the layout during the production. Another thing I didn’t enjoy while coding with Bootstrap was the limitation by the number of columns. Of course, this could be overcome with additional margins, but at the end of the day, we don’t want to apply margins and paddings (sometimes negative) to every element in the code. Other than that, Bootstrap allowed me to easily implement code for Lightbox gallery, and other features which usually require knowledge of JavaScript or advanced CSS.</p>
+        </section>
+
+        <section id="creator">
+            <h2>Creator</h2>
+            <p>As a creator, I am passionate about blending aesthetics with functionality. I design intuitive interfaces and build innovative solutions that help businesses and individuals achieve their goals. I am continuously learning and evolving as a creator in the world of technology.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project" id="project1">
+                <h3>Project 1: My Web Development Technology</h3>
+                <p>This project is a reflection of my growth as a web developer. It showcases my passion for coding, learning, and creating innovative web solutions. From my first HTML page to more complex JavaScript applications, this project highlights the skills I've developed, the challenges I've overcome, and my commitment to becoming a better developer. This portfolio is not just a showcase, but a testament to my journey in the world of web development.</p>
+                <img src="https://majordigital.com/_ipx/w_1920,q_75/https%3A%2F%2Fa.storyblok.com%2Ff%2F191466%2F1385x745%2F24d13cf0aa%2Fweb-development-trends-for-2023.png%2Fm%2Ffit-in%2F730x0?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F191466%2F1385x745%2F24d13cf0aa%2Fweb-development-trends-for-2023.png%2Fm%2Ffit-in%2F730x0&w=1920&q=75" alt="My Web Development Journey">
+            </div>
+
+            <div class="project" id="project2">
+                <h3>Project 2: Motorcycle Technology</h3>
+                <p>The march of motorcycle design technology has long been both a driver of innovation and a reflection of it. By that I mean advancements unique to motorcycle design have kept the motorcycle industry in near-constant forward motion, but adaptations of new and existing technologies alike from other industries have also powered motorcycle design itself forward.
+
+ 
+
+                    This is an exciting time to be a motorcyclist because now, more than ever, it's electronics that are revolutionizing motorcycle technology.
+                    
+                     
+                    
+                    Advanced electronic applications are not only making engine performance more potent and efficient—electronic wizardry is making some of the most powerful production motorcycles ever built. Bikes are now more stable, manageable and user-friendly, making them safer than ever before.</p>
+                <img src="https://cdn2.yamaha-motor.eu/prod/product-assets/2024/YZF1000R1/2024-Yamaha-YZF1000R1-EU-Icon_Blue-Studio-001-03_Mobile.jpg" alt="Motorcycle Technology">
+            </div>
+
+            <div class="project" id="project3">
+                <h3>Project 3: VR Technology</h3>
+                <p>Virtual reality, which is also referred to as augmented reality, is thought of as a way to escape from reality and view the world through a different lens, both literally and figuratively. The developing industry has the power to change the way we learn about and experience the work around us. One example of a virtual reality device is Oculus Rift, which is owned and operated by Google and offers a different type of interaction with both known and unknown places and people. The development of this product is expanding to become both formal and informal and will be able to present an entire world in one single space.
+
+ 
+
+
+
+                    When I was first introduced to the idea, I was hesitant to immerse myself in virtual reality because of my underdeveloped skills in using it. Since I had not previously been exposed to augmented reality, my initial thoughts about using AR/VR in the classroom were filled with dread. As a current college student, experimenting is relatively common, and while I feared the new technology would be difficult to use, my worries subsided as I realized that virtual reality has a lot to offer students, teachers, and the overall global exposure schools provide students. Augmented reality is intended to be used as a tool for success. The ability to view just about any part of the world is one aspect of augmented reality that I believe to be valuable, and after realizing that AR/VR is designed to do just that, my thoughts prior to learning about augmented reality changed.</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzRCddxpIbgRWgaqoVJTXh-UTXkDPoW0YsUw&s" alt="Virtual Reality Technology">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to email Mario Emberzo at <a href="mailto:memberzo92@gmail.com">memberzo92@gmail.com</a>.</p>
+            <a href="mailto:memberzo92@gmail.com?subject=Feedback&body=Dear Mario," class="btn">Send Feedback</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mario Emberzo Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
